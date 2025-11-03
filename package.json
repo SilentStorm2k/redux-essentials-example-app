@@ -18,7 +18,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "start": "vite",
+    "start": "BROWSER=firefox vite",
     "build": "tsc && vite build",
     "format": "prettier --write ./src/**/*.{ts,tsx,css}"
   },
@@ -33,6 +33,5 @@
   },
   "msw": {
     "workerDirectory": "public"
-  },
-  "packageManager": "yarn@4.2.2"
+  }
 }
